@@ -1,0 +1,10 @@
+apiVersion: v2
+name: kubewatch
+description: Helm chart for kubewatch in Kubernetes
+type: application
+version: 3.3.4
+appVersion: "0.1.0"
+dependencies:
+- name: kubewatch
+  version: 3.3.4
+  repository: https://hqchk8sharbor-01.nespresso.com/chartrepo/infra
