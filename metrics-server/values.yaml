@@ -1,7 +1,7 @@
 metrics-server:
   replicas: 2
   image:
-    repository: hqchk8sharbor-01.nespresso.com/infra/metrics-server/metrics-server
+    repository: cent7srv1.example.com/infra/metrics-server
     pullPolicy: IfNotPresent
     tag: v0.6.1
   args: [--kubelet-insecure-tls]
