@@ -7,5 +7,5 @@ appVersion: "0.6.1"
 dependencies:
 - name: metrics-server
   version: 3.8.2
-  repository: 192.168.56.11/chartrepo/infra
+  repository: https://192.168.56.11/chartrepo/infra
 #  repository: http://test1.example.com:8080/chartrepo/infra
