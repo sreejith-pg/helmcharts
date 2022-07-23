@@ -7,6 +7,6 @@ appVersion: "0.1.0"
 dependencies:
 - name: kubewatch
   version: 3.3.4
-  repository: hqchk8sharbor-01.nespresso.com/chartrepo/infra
+  repository: https://hqchk8sharbor-01.nespresso.com/chartrepo/infra
  # repository: https://cent7srv1.example.com/chartrepo/infra
  # repository: http://test1.example.com:8080/chartrepo/infra
