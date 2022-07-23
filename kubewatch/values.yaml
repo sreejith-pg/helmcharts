@@ -1,7 +1,7 @@
 kubewatch:
   replicaCount: 1
   image:
-    registry: https://hqchk8sharbor-01.nespresso.com
+    registry: hqchk8sharbor-01.nespresso.com
     repository: infra/kubewatch/kubewatch
     pullPolicy: IfNotPresent
     tag: 0.1.0-debian-10-r571
