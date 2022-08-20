@@ -20,18 +20,12 @@ spec:
       - name: {{ .Values.appname }}
         image: {{ .Values.image.repository }}/{{ .Values.image.name }}:{{ .Values.image.tag }}
         ports:
-        - containerPort: 3000
+        - containerPort: 8000
         volumeMounts:
         - name: application-configs
           mountPath: {{ .Values.applicationConfigs.path }}
-          readOnly: true
-        - name: application-sealedsecrets
-          mountPath: {{ .Values.applicationSecrets.path }}
           readOnly: true
       volumes:
       - name: application-configs
         configMap:
           name: {{ .Values.appname }}-configs
-      - name: application-sealedsecrets
-        secret:
-          secretName: {{ .Values.appname }}-sealedsecrets
