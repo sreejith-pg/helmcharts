@@ -8,3 +8,5 @@ dependencies:
 - name: metrics-server
   version: 3.8.2
   repository: https://hqchk8sharbor-01.nespresso.com/chartrepo/infra
+#  repository: https://cent7srv1.example.com/chartrepo/infra
+#  repository: http://test1.example.com:8080/chartrepo/infra
