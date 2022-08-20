@@ -5,7 +5,7 @@ replicaCount: 2
 
 # Image
 image:
-  repository: https://docker.notejam.com
+  repository: sreejithpg
   name: notejam
   tag: 1.0
 
