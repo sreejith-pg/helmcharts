@@ -1,16 +1,8 @@
 kubewatch:
   replicaCount: 1
   image:
-    registry: hqchk8sharbor-01.nespresso.com
-    repository: infra/kubewatch/kubewatch
+    name: kubewatch-archived
     pullPolicy: IfNotPresent
-    tag: 0.1.0-debian-10-r571
+    tag: 0.1.0-debian-10-r464
   rbac:
     create: true
-#  slack:
-#    enabled: true
-#    channel: "C03HV8RG8B1"
-#    token: "xoxb-3583562923285-3616596032454-DFpxWXXUWk6U9wFIifRZAlNQ"
-  #webhook:
-  #  #  enabled: true
-  #    #  url: "https://hooks.slack.com/services/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"
