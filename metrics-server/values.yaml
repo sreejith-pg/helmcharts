@@ -1,8 +1,8 @@
 metrics-server:
   replicas: 2
   image:
-    repository: hqchk8sharbor-01.nespresso.com/infra/metrics-server/metrics-server
+    name: bitnami/metrics-server:latest
     pullPolicy: IfNotPresent
-    tag: v0.6.1
+    tag: latest
   args: [--kubelet-insecure-tls]
 
