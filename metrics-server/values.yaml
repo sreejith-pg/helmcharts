@@ -1,8 +1,7 @@
-metrics-server:
-  replicas: 2
-  image:
-    name: bitnami/metrics-server:latest
-    pullPolicy: IfNotPresent
-    tag: latest
-  args: [--kubelet-insecure-tls]
+replicas: 2
+image:
+  name: bitnami/metrics-server:latest
+  pullPolicy: IfNotPresent
+  tag: latest
+args: [--kubelet-insecure-tls]
 
