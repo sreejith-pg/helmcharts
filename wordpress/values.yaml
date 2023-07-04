@@ -73,8 +73,8 @@ diagnosticMode:
 image:
   registry: docker.io
   repository: bitnami/wordpress
-#  tag: 6.2.1-debian-11-r1
-  tag: 6.2.2-debian-11-r22
+  tag: 6.2.1-debian-11-r1
+#  tag: 6.2.2-debian-11-r22
   digest: ""
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
